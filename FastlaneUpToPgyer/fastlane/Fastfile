@@ -1,8 +1,4 @@
-lane :OutputHelloWorld do
-  puts "helloWorld"
-end
-
-
+// 去掉重要信息
 lane :beta do
   build_app(export_method: "enterprise", output_directory: "~/Desktop/outputAPI")
   pgyer(api_key: "", user_key: "",password: "123456", update_description: "hellowrold")
