@@ -1,5 +1,8 @@
-// 去掉重要信息
+
 lane :beta do
-  build_app(export_method: "enterprise", output_directory: "~/Desktop/outputAPI")
-  pgyer(api_key: "", user_key: "",password: "123456", update_description: "hellowrold")
+
+  puts "请输入版本描述信息："
+  desc = STDIN.gets
+  build_app(export_method: "enterprise", output_directory: "ipa")
+  pgyer(api_key: "a215682d481d742271b61aabfe1baffe", user_key: "06c794bc27fbe97b626a3a21f12419f5",password: "123456", update_description: "#{desc}")
 end

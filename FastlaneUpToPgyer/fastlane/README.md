@@ -15,11 +15,6 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### OutputHelloWorld
-```
-fastlane OutputHelloWorld
-```
-
 ### beta
 ```
 fastlane beta
